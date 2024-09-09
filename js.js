@@ -106,3 +106,25 @@ if(found4!==""){
 }else{
     console.log("not found");
 }
+
+function add(num1,num2){
+    return num1+num2;
+}
+
+function multyply(num1,num2){
+    return num1*num2;
+}
+
+function subtract(num1,num2){
+    return num1-num2;
+}
+
+function divide(num1,num2){
+    return num1/num2;
+}
+
+function divRem(num1,num2){
+    return num1%num2;
+}
+
+console.log(add(4,5),divRem(45,4),subtract(20,10),multyply(3,5),divide(50,5));
