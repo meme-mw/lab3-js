@@ -61,9 +61,9 @@ if(map1.length%2==0){
     index2=index+1;
 }
 
-map1.splice(map1[index2],2);
+map1.splice(index2,2);
 
-console.log(map1);
+console.log("this is"+map1);
 
 const initialValue = 1;
 const multy = map1.reduce(
